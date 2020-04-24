@@ -1,0 +1,178 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.clear{
+  clear: both;
+}
+
+nav{
+  height: 60px;
+  background-color: #2E6C95;
+}
+
+nav .resturant-logo{
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  float: right;
+  line-height: 60px;
+  text-align: center;
+}
+
+nav ul li{
+  float: left;
+  width: 25%;
+  list-style: none;
+  font-size: 18px;
+  transition: all .5s ease;
+}
+
+nav ul li:hover{
+  background-color: black;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* header */
+.header{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../header.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+}
+
+/* gallery */
+.gallery-parent .gallery-header h2{
+  padding: 10px !important;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 24%;
+  padding: 10px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery .desc {
+  padding: 15px;
+  text-align: left;
+}
+
+.gallery .price {
+  padding: 0;
+  margin: 0;
+  padding: 15px;
+  text-align: left;
+}
+
+/* about page */
+.about-header{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../header.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+}
+
+.who-us{
+  margin-top: 50px;
+}
+
+.who-us h3{
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.who-us .who-par, .who-us .who-pic{
+  width: 50%;
+  float: left;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.who-us .who-pic img{
+  border-radius: 10px;
+}
+
+.who-us .who-par p{
+  line-height: 30px;
+  color: #888;
+}
+
+.contact{
+  padding-left: 10px;
+}
+
+.contact textarea{
+  padding: 15px;
+  width: 50%;
+  float: left;
+  font-size: 18px;
+}
+
+.contact input{
+  border: 0;
+  border: 1px solid #DDD;
+  padding: 20px;
+  margin-top: 5px;
+  width: 45%;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.contact .submit{
+  width: 20%;
+  border: none;
+  border: 1px solid #2E6C95;
+  background-color: #2E6C95;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.contact .submit:hover{
+  font-size: 15px;
+  background-color: #000;
+  color: #f00;
+}
+
+/* footer */
+.footer{
+  background-color: #2E6C95;
+  height: 80px;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.footer span{
+  color: #fff;
+}
